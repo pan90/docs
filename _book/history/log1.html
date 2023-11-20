@@ -1,0 +1,619 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>日记#1 · PaperCard服务器完全文档</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Paper99 <1398872296@qq.com>">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-flexible-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="log2.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    玩法与介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../publicity.html">
+            
+                <a href="../publicity.html">
+            
+                    
+                    宣传
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../introduction.html">
+            
+                <a href="../introduction.html">
+            
+                    
+                    游玩前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../suitable-player.html">
+            
+                <a href="../suitable-player.html">
+            
+                    
+                    适合与不适合哪些玩家
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../bili-bind.html">
+            
+                <a href="../bili-bind.html">
+            
+                    
+                    B站账号绑定（白名单）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../basic-rules.html">
+            
+                <a href="../basic-rules.html">
+            
+                    
+                    四大基本条例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../additional-rules.html">
+            
+                <a href="../additional-rules.html">
+            
+                    
+                    补充条例以及说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../anti-xray.html">
+            
+                <a href="../anti-xray.html">
+            
+                    
+                    关于矿透行为的相关规定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../ban-and-report.html">
+            
+                <a href="../ban-and-report.html">
+            
+                    
+                    封禁、解封与举报
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../mods.html">
+            
+                <a href="../mods.html">
+            
+                    
+                    可用与不可用模组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../viewdistance.html">
+            
+                <a href="../viewdistance.html">
+            
+                    
+                    动态视距调整
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../player-tips.html">
+            
+                <a href="../player-tips.html">
+            
+                    
+                    玩家游玩提示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../chat.html">
+            
+                <a href="../chat.html">
+            
+                    
+                    私信与聊天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../color-codes.html">
+            
+                <a href="../color-codes.html">
+            
+                    
+                    颜色代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../chestprotect.html">
+            
+                <a href="../chestprotect.html">
+            
+                    
+                    锁箱子插件教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../drift-bottle.html">
+            
+                <a href="../drift-bottle.html">
+            
+                    
+                    漂流瓶
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../ch-name.html">
+            
+                <a href="../ch-name.html">
+            
+                    
+                    中文名使用指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../littleskin.html">
+            
+                <a href="../littleskin.html">
+            
+                    
+                    LittleSkin外置登录支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../old-player-rules.html">
+            
+                <a href="../old-player-rules.html">
+            
+                    
+                    老玩家守则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="../admin-rules.html">
+            
+                <a href="../admin-rules.html">
+            
+                    
+                    管理员守则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="../support-us.html">
+            
+                <a href="../support-us.html">
+            
+                    
+                    支持与赞助
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    历史与开服日记
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.22.1" data-path="log1.html">
+            
+                <a href="log1.html">
+            
+                    
+                    日记#1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22.2" data-path="log2.html">
+            
+                <a href="log2.html">
+            
+                    
+                    日记#2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22.3" data-path="log3.html">
+            
+                <a href="log3.html">
+            
+                    
+                    日记#3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22.4" data-path="log4.html">
+            
+                <a href="log4.html">
+            
+                    
+                    日记#4
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >日记#1</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5F00;&#x670D;&#x65E5;&#x8BB0;1-&#x5F00;&#x670D;&#x4E24;&#x4E2A;&#x6708;&#x4E86;">&#x5F00;&#x670D;&#x65E5;&#x8BB0;#1 &#x5F00;&#x670D;&#x4E24;&#x4E2A;&#x6708;&#x4E86;</h1>
+<p>2023&#x5E74;09&#x6708;16&#x65E5; 00:58206&#x6D4F;&#x89C8; &#xB7; 2&#x559C;&#x6B22; &#xB7; 1&#x8BC4;&#x8BBA;</p>
+<p>PaperCard_
+&#x7C89;&#x4E1D;&#xFF1A;714&#x6587;&#x7AE0;&#xFF1A;9
+&#x5173;&#x6CE8;
+&#x4ECE;&#x5F00;&#x670D;&#x5230;&#x73B0;&#x5728;&#x5DF2;&#x7ECF;&#x4E24;&#x4E2A;&#x6708;&#x4E86;&#xFF0C;&#x5C0F;&#x7834;&#x670D;&#x4E5F;&#x8D8A;&#x6765;&#x8D8A;&#x5B8C;&#x5584;&#xFF0C;&#x5F53;&#x7136;&#xFF0C;&#x4ECD;&#x7136;&#x8FD8;&#x662F;&#x4E00;&#x4E2A;&#x52AA;&#x529B;&#x524D;&#x884C;&#x7684;&#x5C0F;&#x7834;&#x670D;&#x3002;</p>
+<p>&#x4E24;&#x4E2A;&#x6708;&#x6765;&#x4ECE;&#x5F00;&#x59CB;&#x5341;&#x51E0;&#x4EBA;&#x9646;&#x9646;&#x7EED;&#x7EED;&#x6765;&#x4E86;&#x8BB8;&#x591A;&#x65B0;&#x73A9;&#x5BB6;&#x3002;</p>
+<p>&#x5F53;&#x7136;&#x4E5F;&#x6709;&#x8BB8;&#x591A;&#x4E00;&#x65E5;&#x6E38;&#x73A9;&#x5BB6;&#x3001;&#x9000;&#x7FA4;&#x7684;&#x73A9;&#x5BB6;&#x3002;</p>
+<p>&#x521A;&#x5F00;&#x59CB;&#x6211;&#x786E;&#x5B9E;&#x60F3;&#x4E0D;&#x660E;&#x767D;&#xFF0C;&#x70E6;&#x607C;&#x597D;&#x4E45;&#x3002;</p>
+<p>&#x5230;&#x540E;&#x9762;&#x6211;&#x770B;&#x5F00;&#x4E86;&#xFF0C;&#x73A9;&#x5BB6;&#x5728;&#x9009;&#x62E9;&#x670D;&#x52A1;&#x5668;&#x7684;&#x540C;&#x65F6;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x4E5F;&#x5728;&#x9009;&#x62E9;&#x73A9;&#x5BB6;&#xFF0C;&#x9009;&#x62E9;&#x9002;&#x5408;&#x5728;&#x8FD9;&#x513F;&#x73A9;&#x7684;&#x73A9;&#x5BB6;&#x7559;&#x4E0B;&#x6765;&#x3002;</p>
+<p>&#x4F46;&#x603B;&#x7684;&#x6765;&#x8BF4;&#xFF0C;&#x8FD8;&#x662F;&#x6765;&#x4E86;&#x4E00;&#x6279;&#x4E0D;&#x9519;&#x7684;&#x65B0;&#x73A9;&#x5BB6;&#x3002;</p>
+<p>&#x6211;&#x5F53;&#x7136;&#x4E5F;&#x662F;&#x77E5;&#x9053;&#x865A;&#x5047;&#x70ED;&#x5EA6;&#x8FD9;&#x4E1C;&#x897F;&#xFF0C;&#x70ED;&#x5EA6;&#x9000;&#x53BB;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8FD8;&#x80FD;&#x575A;&#x6301;&#x4E00;&#x76F4;&#x5728;&#x7684;&#xFF0C;&#x662F;&#x5C11;&#x6709;&#x7684;&#x5FE0;&#x5B9E;&#x73A9;&#x5BB6;&#x3002;&#x5F88;&#x5E78;&#x8FD0;&#x7684;&#x662F;&#xFF0C;&#x6211;&#x4EEC;&#x4E5F;&#x6709;&#x4E0D;&#x5C11;&#x5FE0;&#x5B9E;&#x73A9;&#x5BB6;&#xFF0C;&#x5373;&#x4F7F;&#x670D;&#x52A1;&#x5668;&#x6CA1;&#x4EBA;&#x770B;&#x8D77;&#x6765;&#x5F88;&#x51C4;&#x51C9;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4ED6;&#x4EEC;&#x4E5F;&#x80FD;&#x4E50;&#x5728;&#x5176;&#x4E2D;&#x3002;&#x4E5F;&#x662F;&#x4ED6;&#x4EEC;&#x9F13;&#x52B1;&#x7740;&#x6211;&#xFF0C;&#x6211;&#x60F3;&#x7740;&#x4E5F;&#x4E0D;&#x80FD;&#x653E;&#x5F03;&#x3002;</p>
+<p>&#x51FA;&#x73B0;&#x95EE;&#x9898;&#x4E86;&#xFF0C;&#x60F3;&#x529E;&#x6CD5;&#x89E3;&#x51B3;&#x5C31;&#x597D;&#x4E86;&#xFF0C;&#x6CA1;&#x5FC5;&#x8981;&#x81EA;&#x66B4;&#x81EA;&#x5F03;&#x7684;&#x3002;&#x4E4B;&#x524D;&#x8EAB;&#x4EFD;&#x9A8C;&#x8BC1;&#x670D;&#x52A1;&#x5668;&#x9891;&#x7E41;&#x5B95;&#x673A;&#xFF0C;&#x73B0;&#x5728;&#x60C5;&#x51B5;&#x4E5F;&#x597D;&#x4E86;&#x8BB8;&#x591A;&#xFF08;&#x76F8;&#x5173;mojang&#x4EE3;&#x7801;&#x88AB;&#x6211;&#x91CD;&#x5199;&#x4F18;&#x5316;&#x4E86;&#xFF09;&#xFF0C;&#x5E76;&#x4E14;&#x4E5F;&#x80FD;&#x652F;&#x6301;&#x5916;&#x7F6E;&#x767B;&#x5F55;&#x4F5C;&#x4E3A;&#x5907;&#x9009;&#x7684;&#x8EAB;&#x4EFD;&#x9A8C;&#x8BC1;&#x65B9;&#x6848;&#x3002;</p>
+<p>&#x8FD9;&#x4E24;&#x4E2A;&#x6708;&#x505A;&#x7684;&#x52AA;&#x529B;&#xFF0C;&#x4E5F;&#x662F;&#x5F88;&#x591A;&#x7684;&#xFF0C;&#x4E5F;&#x4E0D;&#x4E00;&#x4E00;&#x5217;&#x4E3E;&#x4E86;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x4F60;&#x5BF9;&#x670D;&#x52A1;&#x5668;&#x6709;&#x4EC0;&#x4E48;&#x5EFA;&#x8BAE;&#x6216;&#x8005;&#x610F;&#x89C1;&#x7684;&#x8BDD;&#xFF0C;&#x53EF;&#x4EE5;&#x8054;&#x7CFB;&#x6211;&#xFF1B;&#x5982;&#x679C;&#x4F60;&#x4E5F;&#x6709;&#x80FD;&#x529B;&#x5E2E;&#x5FD9;&#x505A;&#x4E00;&#x70B9;&#x4E8B;&#x7684;&#x8BDD;&#xFF0C;&#x53EF;&#x4EE5;&#x8054;&#x7CFB;&#x6211;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 历史与开服日记">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="log2.html" class="navigation navigation-next " aria-label="Next page: 日记#2">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"日记#1","level":"1.22.1","depth":2,"next":{"title":"日记#2","level":"1.22.2","depth":2,"path":"history/log2.md","ref":"./history/log2.md","articles":[]},"previous":{"title":"历史与开服日记","level":"1.22","depth":1,"path":"history/README.md","ref":"./history/README.md","articles":[{"title":"日记#1","level":"1.22.1","depth":2,"path":"history/log1.md","ref":"./history/log1.md","articles":[]},{"title":"日记#2","level":"1.22.2","depth":2,"path":"history/log2.md","ref":"./history/log2.md","articles":[]},{"title":"日记#3","level":"1.22.3","depth":2,"path":"history/log3.md","ref":"./history/log3.md","articles":[]},{"title":"日记#4","level":"1.22.4","depth":2,"path":"history/log4.md","ref":"./history/log4.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["hide-element","chapter-fold","splitter","-lunr","-search","search-pro","pageview-count","-sharing","sharing-plus","custom-favicon","insert-logo","theme-comscore","flexible-alerts"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"icon.png","theme-comscore":{},"pageview-count":{},"custom-favicon":{},"flexible-alerts":{"style":"callout","note":{"label":"Note","icon":"fa fa-info-circle","className":"info"},"tip":{"label":"Tip","icon":"fa fa-lightbulb-o","className":"tip"},"warning":{"label":"Warning","icon":"fa fa-exclamation-triangle","className":"warning"},"danger":{"label":"Attention","icon":"fa fa-ban","className":"danger"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 100px; min-height: 30px","url":"./icon.png"}},"theme":"default","author":"Paper99 <1398872296@qq.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PaperCard服务器完全文档","language":"zh-hans","gitbook":"*"},"file":{"path":"history/log1.md","mtime":"2023-11-20T06:16:28.974Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-20T08:12:40.357Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-flexible-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
