@@ -1,0 +1,32 @@
+{
+    "title": "PaperCard服务器安全文档",
+    "author": "Paper99 <1398872296@qq.com>",
+    "language": "zh-hans",
+    "plugins": [
+        "hide-element",
+        "chapter-fold",
+        "splitter",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "pageview-count",
+        "-sharing",
+        "sharing-plus",
+        "custom-favicon",
+        "insert-logo",
+        "theme-comscore",
+        "flexible-alerts"
+    ],
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [
+                ".gitbook-link"
+            ]
+        },
+        "favicon": "icon.png",
+        "insert-logo": {
+            "url": "./icon.png",
+            "style": "background: none; max-height: 100px; min-height: 30px"
+        }
+    }
+}
