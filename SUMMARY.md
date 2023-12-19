@@ -13,6 +13,7 @@
 * [动态视距调整](viewdistance.md)
 * [玩家游玩提示](player-tips.md)
 * [私信与聊天](chat.md)
+* [游戏内语音聊天](voice-chat.md)
 * [颜色代码](color-codes.md)
 * [锁箱子插件教程](chestprotect.md)
 * [漂流瓶](drift-bottle.md)
