@@ -24,6 +24,7 @@
 * [老玩家守则](old-player-rules.md)
 * [管理员守则](admin-rules.md)
 * [支持与赞助](support-us.md)
+* [爱发电](afdian.md)
 
 * [历史与开服日记](./history/README.md)
     * [日记#1](./history/log1.md)
